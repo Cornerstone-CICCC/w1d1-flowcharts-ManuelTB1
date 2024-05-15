@@ -9,7 +9,6 @@
 - Add each flowchart to the answer section of this file as image.
 - Each exercise should be in a different commit.
 - If you want to make changes after your commit, you should create a new commit.
-- Be clear when adding comments to your commits.
 
 ## Exercise 1
 
@@ -22,6 +21,12 @@ Pseudocode:
 - Print length in cm (LCM)
 
 ### _Answer_
+- 1.- Start 
+- 2.- Input LFT
+- 3.- LCM = LFT * 30 
+- 4.- Print LCM 
+- 5.- End 
+
 
 ## Exercise 2
 
@@ -34,6 +39,13 @@ Pseudocode:
 - Print A
 
 ### _Answer_
+- 1.- Start
+- 2.- Input W
+- 3.- Input L
+- 4.- A = W * L 
+- 5.- Print A 
+- 6.- End
+
 
 ## Exercise 3
 
@@ -42,12 +54,39 @@ Write an algorithm and draw a flowchart that will read three numbers and prints 
 > Given that the three numbers are not equal to each other)
 
 ### _Answer_
+- 1.- Start
+- 2.- Input A, B, C
+- 3.- If A > B and A > C is true
+- 4.- Print A 
+- 5.- If A > C is false
+- 6.- Print C
+- 5.- If A > B is false and B > C is true 
+- 6.- Print B
+- 7.- If B > C is false 
+- 8.- Print C
+- 9.- End 
 
 ## Exercise 4
 
 Write an algorithm and draw a flowchart to check the three number inputs whether a triangle is possible or not.
 
 ### _Answer_
+- 1.- Start 
+- 2.- Input A, B, C
+- 3.- If A + B > C is true
+- 4.- Print "Possible"
+- 5.- If A + B > C is false
+- 6.- Print "Not Possible"
+- 7.- If A + C > B is true 
+- 8.- Print "Possible" 
+- 9.- If A + C > B is false 
+- 10.- Print "Not Possible" 
+- 11.- If B + C > A is true 
+- 12.- Print "Possible"
+- 13.- If B + C > A is false 
+- 14.- Print "Not Possible"
+- 15.- End 
+
 
 ## Exercise 5
 
@@ -65,3 +104,15 @@ Display the grades as per the table given below:
 | Less than 40%                 | No Grade |
 
 ### _Answer_
+- 1.- Start 
+- 2.- Input Grade
+- 3.- If Grade >= 80% is true 
+- 4.- Print Grade = A
+- 5.- If Grade >= 60% and <80% is true
+- 6.- Print Grade = B
+- 7.- If Grade >= 40% and <60% is true 
+- 8.- Print Grade = C
+- 9.- If Grade <40% is true 
+- 10.- Print Grade = No Grade
+- 11.- End
+
